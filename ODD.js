@@ -37,15 +37,9 @@ function toCheckPrime(n){
         return true; 
     } 
   
-
-/**
- * this is a main function to call the checkOdd finction and
- * also calling the printing function
- */
-
 /**
  * This is the helper test function to find and count one-digit-difference odd numbers
- * and count how many of them are prime.
+ * and count how many of them.
  */
 function test() {
     let count = 0;  
@@ -59,7 +53,7 @@ function test() {
     console.log("Total ODD numbers :", count)
 }
 /**
- * this is hepler function to check that ODDList number for prime
+ * this is hepler function to check that ODDList number  prime or not
  */
 function testprime(){
     let primecount = 0; 

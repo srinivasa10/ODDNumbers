@@ -12,8 +12,12 @@ Each pair of consecutive digits of 345456 has a difference of one.
  */
 let ODDlist = [];
 function checkOdd(number){
+    if (number<10){
+        return false
+    }
     let Numberstr=number.toString()
     for(let i=0;i<Numberstr.length-1;i++){
+        
         if(Math.abs(Number(Numberstr[i] - Numberstr[i+1])) != 1){
             return false
         }

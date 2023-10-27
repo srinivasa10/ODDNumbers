@@ -68,9 +68,8 @@ function testprime(){
  * this main function to call the helping functions
  */
 function main(){
-
-    test()
-    testprime()
+    test()  //calling the test function
+    testprime() // calling the test prime function
 
 }
 
